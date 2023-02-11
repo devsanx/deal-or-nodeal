@@ -8,19 +8,13 @@ A Web Based Game Inspired from Popular Television Game Show
 ## About
 Deal OR Nodeal is a multi player web game built using JavaScript [Socket](https://socket.io/) library. Front-end is built using [React](https://reactjs.org/) and [Tailwind CSS.](https://tailwindcss.com/) Back-end is Powered By [Node](https://nodejs.org).
 
-#### Multi-Player [beta]
 clone and install required dependencies.
 
-    git clone https://github.com/sanishc/deal-or-nodeal.git
+    git clone https://github.com/devsanx/deal-or-nodeal.git
     cd deal-or-nodeal
     npm install && npm run dev
 
 Anyone in your the local network can now access the game from their browser. players can be either a banker or contestant.
-
-#### Single-Player [beta]
-single player version can be played without local setup. visit https://sanishc.github.io/deal-or-nodeal.  To play locally follow the same steps mentioned above in single player branch. you can use below command to switch branch.
-
-    git checkout single-player
 
 ## GamePlay
 The contestant chooses one of 26 numbered briefcases at the start of the game. Each briefcase contains a cash value from 1 to 1000000. on side displays the amounts still in play at any given moment. The contestant's chosen case will be hidden (first box selected). In the first round, the contestant chooses six cases to eliminate from play, one at a time. Each case is opened as it is chosen, and the amount inside is removed from the money tree. 
